@@ -1,14 +1,12 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+Short SK README
 
-# HTML Starter
+1) Upload project to GitHub (Upload files on GitHub web).
+2) In Vercel create project from this repo.
+3) Add Environment Variables in Vercel:
+   - DATABASE_URL (Postgres connection string)
+   - JWT_SECRET
+   - DB_SSL=true
+4) Create DB table using migrations/init.sql (psql or Vercel Postgres admin).
+5) Deploy and test UI.
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+Note: demo — virtual credits only. No payments or legal compliance.
